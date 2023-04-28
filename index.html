@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diligent Dinner</title>
+    <script>
+        fetch('https://api.ipify.org?format=json')
+            .then(response => response.json())
+            .then(data => console.log(data.ip))
+            .catch(error => console.error(error));
+    </script>
+</head>
+<body>
+    <header>
+        <ul>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">My Recepies</a>
+            <a href="">Account</a>
+        </ul>
+    </header>
+</body>
+</html>
