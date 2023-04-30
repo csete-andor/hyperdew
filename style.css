@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+}
+body{
+    background-color: rgb(91, 141, 189);
+}
+header{
+    width: 100%;
+    height: 10em;
+    text-align: right;
+    background-color: white;
+}
+header a{
+    margin: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
